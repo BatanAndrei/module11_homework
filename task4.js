@@ -1,13 +1,13 @@
-function intervalNumbers(a, b) {
-    let start = a;
+const intervalNumders = function(a, b){
   
-    let timerId = setInterval(function() {
-      console.log(start);
-      if (start == b) {
-        clearInterval(timerId);
+    const intervalID = setInterval(function(){
+      console.log(a);
+      if(a == b){
+        clearInterval(intervalID)
+      }else {
+        a++
       }
-      start++;
-    }, 1000);
+    }, 1000)
   }
-
-  intervalNumbers(5, 15);
+  
+  intervalNumders(5,15);
