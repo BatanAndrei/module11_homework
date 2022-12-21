@@ -10,4 +10,4 @@ function intervalNumbers(a, b) {
     }, 1000);
   }
 
-  intervalNumbers(5, 10);
+  intervalNumbers(5, 15);
