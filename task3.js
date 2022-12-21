@@ -1,6 +1,6 @@
 function sum(a){
     return function(b){
-      return a+b;
+      return a + b;
     };
   };
   

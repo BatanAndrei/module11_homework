@@ -10,4 +10,4 @@ const intervalNumders = function(a, b){
     }, 1000)
   }
   
-  intervalNumders(5,15);
+  intervalNumders(5, 15);

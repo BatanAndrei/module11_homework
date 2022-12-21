@@ -9,4 +9,4 @@ const degree = (x, n) => {
       console.log(result);      
     };
     
-    degree(3,3);
+    degree(3, 3);
