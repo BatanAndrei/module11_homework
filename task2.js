@@ -1,4 +1,4 @@
-let x = 10;
+let data = 10;
 
 function nNumber(n){
   
@@ -19,4 +19,4 @@ for(var i = 2; i < n; i++){
   }
 }
   
-console.log(nNumber(x));
+console.log(nNumber(data));
