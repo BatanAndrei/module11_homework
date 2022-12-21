@@ -1,7 +1,7 @@
 const intervalNumders = function(a, b){
-  
+
     const intervalID = setInterval(function(){
-      console.log(a);
+      console.log(a); 
       if(a == b){
         clearInterval(intervalID)
       }else {
