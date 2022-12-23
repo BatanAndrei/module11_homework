@@ -4,7 +4,7 @@ function nNumber(n){
   
   if(n >= 2 && n < 1000){
     
-for(var i = 2; i < n; i++){
+for(let i = 2; i < n; i++){
   
     if(n % i === 0){
       
